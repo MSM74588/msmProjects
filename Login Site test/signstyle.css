@@ -111,3 +111,15 @@ label{
     height: 100%;
     width: 100%;
 }
+
+.fas:hover, .fa-eye-slash:hover{
+    cursor: pointer;
+    background-color: rgb(223, 223, 223);
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.fas, .fa-eye-slash{
+    padding: 10px;
+    transition: 0.3s;
+}
